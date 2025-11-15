@@ -25,12 +25,12 @@ func init() {
 	var err error
 	HomeDir, err = os.UserHomeDir()
 	if err != nil {
-		panic("获取用户根目录失败")
+		panic("Failed to get user home directory")
 	}
 
 	file, err := os.Open(filepath.Join(HomeDir, JSON_DATA_FILE))
 	if err != nil {
-		fmt.Printf("目录 %s 下不存在文件 %s\n", HomeDir, JSON_DATA_FILE)
+		fmt.Printf("File %s does not exist in directory %s\n", JSON_DATA_FILE, HomeDir)
 		fsFile, err := templates.Templates.Open("items.json")
 		if err != nil {
 			panic(err)
@@ -43,12 +43,12 @@ func init() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("使用预设数据: %v\n", len(ItemArr))
+		fmt.Printf("Using preset data: %v\n", len(ItemArr))
 	} else {
 		ItemArr, err = loadDiskData(file)
 		if err != nil {
-			// 如果加载本地数据失败，则使用初始数据
-			fmt.Printf("加载目录 %s 下文件 %s 失败: %s\n", HomeDir, JSON_DATA_FILE, err.Error())
+			// If loading local data fails, use initial data
+			fmt.Printf("Failed to load file %s from directory %s: %s\n", JSON_DATA_FILE, HomeDir, err.Error())
 			fsFile, err := templates.Templates.Open("items.json")
 			if err != nil {
 				panic(err)
@@ -61,13 +61,13 @@ func init() {
 			if err != nil {
 				panic(err)
 			}
-			fmt.Printf("使用预设数据: %v\n", len(ItemArr))
+			fmt.Printf("Using preset data: %v\n", len(ItemArr))
 		} else {
-			fmt.Println("加载本地数据成功")
+			fmt.Println("Successfully loaded local data")
 		}
 	}
 
-	// 构建分类映射
+	// Build category mapping
 	itemsMap := map[string][]*Good{}
 	for i := range ItemArr {
 		if len(ItemArr[i].PriceRange) >= 2 {
@@ -130,7 +130,7 @@ type ItemRecipe struct {
 type RecipeDrop struct {
 	Cnt  int    `json:"cnt"`
 	Prob int    `json:"prob"`
-	Name string `json:"name"` // 如果不为空，则表示副产品
+	Name string `json:"name"` // If not empty, indicates a byproduct
 }
 
 type RecipeMaterial struct {
@@ -138,7 +138,7 @@ type RecipeMaterial struct {
 	Cnt  float64 `json:"cnt"`
 }
 
-// GetProductionByFocus 计算只使用专注配方获得的产出
+// GetProductionByFocus calculates the output obtained using only the focus recipe
 func (ir *ItemRecipe) GetProductionByFocus(focus float64, name string) (production ProductionDetail, err error) {
 	production, err = ir.GetFocusProducingX(1, name)
 	if err != nil {
@@ -147,13 +147,13 @@ func (ir *ItemRecipe) GetProductionByFocus(focus float64, name string) (producti
 	return production.MultiPower(float64(focus) / production.Focus), nil
 }
 
-// GetFocusProducingX 按照配方获取x个产出所需要多少专注
+// GetFocusProducingX calculates how much focus is needed to produce x items according to the recipe
 func (ir ItemRecipe) GetFocusProducingX(x float64, name string) (production ProductionDetail, err error) {
 	recipe := ir
 	unit := 0.0
 	for _, drop := range recipe.Drop {
 		if drop.Name != "" && drop.Name != name {
-			// 添加副产品
+			// Add byproduct
 			production.ByProducts = append(production.ByProducts, ByProduct{
 				Name: drop.Name,
 				Cnt:  float64(drop.Prob) * float64(drop.Cnt) / 100,
@@ -166,7 +166,7 @@ func (ir ItemRecipe) GetFocusProducingX(x float64, name string) (production Prod
 	if unit == 0.0 {
 		return production, fmt.Errorf("%s %w", name, ErrNoDrop)
 	}
-	// 合并副产品
+	// Merge byproducts
 	name2byproduct := map[string]ByProduct{}
 	for _, bp := range production.ByProducts {
 		if _, ok := name2byproduct[bp.Name]; !ok {
@@ -184,23 +184,23 @@ func (ir ItemRecipe) GetFocusProducingX(x float64, name string) (production Prod
 		production.ByProducts = append(production.ByProducts, bp)
 	}
 
-	// 先计算生产unit个需要多少专注，然后计算x个需要多少专注
+	// First calculate how much focus is needed to produce unit items, then calculate how much is needed for x items
 	production.Cnt = unit
 	production.Focus += float64(recipe.Focus)
 	for _, material := range recipe.Materials {
 		if item, ok := Name2Item[material.Name]; ok {
-			// 获取所需材料所有配方的最低专注
+			// Get the minimum focus for all recipes of the required material
 			p, err := item.GetMinFocusProducingX(material.Cnt)
 			if err != nil {
 				return production, err
 			}
-			// 计算需要材料需要多少专注
+			// Calculate how much focus is needed for the material
 			p.ItemName = material.Name
 			p.Price = getPrice(p.ItemName, nil)
 			production.Focus += float64(p.Focus)
 			production.Details = append(production.Details, p)
 		} else {
-			// 如果不在表内，则产出不需要专注
+			// If not in the table, the output does not require focus
 		}
 	}
 	production.Price = getPrice(name, nil)
@@ -214,13 +214,13 @@ type ByProduct struct {
 }
 
 type ProductionDetail struct {
-	ItemName   string             `json:"item_name"`         // 物品名称
-	Cnt        float64            `json:"cnt"`               // 物品产出数量
-	Price      float64            `json:"price"`             // 参考价格
-	Focus      float64            `json:"focus"`             // 生产Cnt个物品总专注消耗
-	Cost       float64            `json:"cost"`              // 购买Cnt个物品的总金币花费
-	Details    []ProductionDetail `json:"details,omitempty"` // 物品产出所需材料消耗情况
-	ByProducts []ByProduct        `json:"by_products"`       // 物品的副产品
+	ItemName   string             `json:"item_name"`         // Item name
+	Cnt        float64            `json:"cnt"`               // Item output quantity
+	Price      float64            `json:"price"`             // Reference price
+	Focus      float64            `json:"focus"`             // Total focus consumption for producing Cnt items
+	Cost       float64            `json:"cost"`              // Total coin cost for buying Cnt items
+	Details    []ProductionDetail `json:"details,omitempty"` // Material consumption details for item production
+	ByProducts []ByProduct        `json:"by_products"`       // Item byproducts
 }
 
 func (pd *ProductionDetail) GetAllMetarialNames() (rs []string) {
@@ -232,7 +232,7 @@ func (pd *ProductionDetail) GetAllMetarialNames() (rs []string) {
 	return rs
 }
 
-// GetTotalMaterialsCoinCost 获取生产情况消耗材料的金币花费情况
+// GetTotalMaterialsCoinCost calculates the coin cost of materials consumed in production
 func (pd *ProductionDetail) GetTotalMaterialsCoinCost() (total float64) {
 	for _, detail := range pd.Details {
 		total += detail.Cost + detail.GetTotalMaterialsCoinCost()
@@ -240,7 +240,7 @@ func (pd *ProductionDetail) GetTotalMaterialsCoinCost() (total float64) {
 	return total
 }
 
-// TrBestProduction 计算纯专注产出情况替换为购买方案的最佳产出情况
+// TrBestProduction calculates the best production scenario by replacing pure focus production with purchase options
 func (pd *ProductionDetail) TrBestProduction(prices map[string]float64) (result *ProductionDetail, err error) {
 	result = pd.Copy()
 	if len(pd.Details) == 0 {
@@ -255,7 +255,7 @@ func (pd *ProductionDetail) TrBestProduction(prices map[string]float64) (result 
 	return result, nil
 }
 
-// TrProfit 将产出转换为利润
+// TrProfit converts production output to profit
 func (pd *ProductionDetail) TrProfit(prices map[string]float64) (profit Profit) {
 	profit.Name = pd.ItemName
 	profit.Cnt = pd.Cnt
@@ -273,7 +273,7 @@ func (pd *ProductionDetail) TrProfit(prices map[string]float64) (profit Profit) 
 	return profit
 }
 
-// 获取pd在生产output时，最佳的产出result
+// Get the best production result for pd when producing output
 func (pd *ProductionDetail) trBestProduction(output *ProductionDetail, prices map[string]float64) (err error) {
 	for _, detail := range output.Details {
 		if detail.ItemName == pd.ItemName {
@@ -295,7 +295,7 @@ func (pd *ProductionDetail) trBestProduction(output *ProductionDetail, prices ma
 	// 	outProfit += bp.Cnt * price * 0.95
 	// }
 	case1 := pd.Copy()
-	// pd全部市场购买的情况
+	// Case where pd is entirely purchased from market
 	ratio := output.Focus / (output.Focus - pd.Focus)
 	newProfit := ratio * (outProfit - pd.Cnt*avgPrice)
 	case1.Focus = 0
@@ -306,7 +306,7 @@ func (pd *ProductionDetail) trBestProduction(output *ProductionDetail, prices ma
 	// fmt.Printf("直接购买: %v\n", case1)
 	// fmt.Printf("直接购买比例: %v\n", ratio)
 
-	// 对pd的每种材料获取其最佳产出，然后手动制造
+	// Get the best output for each material of pd, then manually produce
 	case2 := pd.Copy()
 	for i := range case2.Details {
 		err = case2.Details[i].trBestProduction(case2, prices)
@@ -319,10 +319,10 @@ func (pd *ProductionDetail) trBestProduction(output *ProductionDetail, prices ma
 	// fmt.Printf("材料购买: %v\n", case2)
 	// fmt.Printf("材料购买比例: %v\n", ratio2)
 
-	// 比较哪种价格利润最高
-	// fmt.Printf("原利润: %v\n", outProfit)
-	// fmt.Printf("直接购买利润: %v\n", newProfit)
-	// fmt.Printf("材料购买利润: %v\n", newProfit2)
+	// Compare which option yields the highest profit
+	// fmt.Printf("Original profit: %v\n", outProfit)
+	// fmt.Printf("Direct purchase profit: %v\n", newProfit)
+	// fmt.Printf("Material purchase profit: %v\n", newProfit2)
 	if outProfit > max(newProfit, newProfit2) {
 		return nil
 	} else if newProfit > max(outProfit, newProfit2) {
@@ -393,15 +393,15 @@ func (pd *ProductionDetail) Copy() (copy *ProductionDetail) {
 func (pd *ProductionDetail) Comment() string {
 	var s string
 	if pd.Focus > 0 {
-		s = fmt.Sprintf("生产[%s]: %.2f个, 专注总消耗: %.2f, 金币总花费: %.2f\n", pd.ItemName, pd.Cnt, pd.Focus, pd.Cost)
+		s = fmt.Sprintf("Produce [%s]: %.2f units, Total focus consumption: %.2f, Total coin cost: %.2f\n", pd.ItemName, pd.Cnt, pd.Focus, pd.Cost)
 	} else {
-		s = fmt.Sprintf("购买[%s]: %.2f个, 金币总花费: %.2f, 参考价格: %.2f\n", pd.ItemName, pd.Cnt, pd.Cost, pd.Cost/pd.Cnt)
+		s = fmt.Sprintf("Purchase [%s]: %.2f units, Total coin cost: %.2f, Reference price: %.2f\n", pd.ItemName, pd.Cnt, pd.Cost, pd.Cost/pd.Cnt)
 	}
 	for _, by := range pd.ByProducts {
-		s += fmt.Sprintf("副产品[%s]: %.2f个，单价: %.2f\n", by.Name, by.Cnt, getPrice(by.Name, nil))
+		s += fmt.Sprintf("Byproduct [%s]: %.2f units, Unit price: %.2f\n", by.Name, by.Cnt, getPrice(by.Name, nil))
 	}
 	if len(pd.Details) > 0 {
-		s += "材料情况:\n"
+		s += "Material details:\n"
 	}
 
 	for _, detail := range pd.Details {
@@ -422,15 +422,15 @@ func (pd *ProductionDetail) Comment() string {
 func (pd *ProductionDetail) Equation() (e string) {
 	equalize := func(tmp *ProductionDetail) string {
 		if tmp.Focus == 0 {
-			return fmt.Sprintf("%s(购买，单价%.2f)", tmp.ItemName, tmp.Cost/tmp.Cnt)
+			return fmt.Sprintf("%s(Purchase, Unit price %.2f)", tmp.ItemName, tmp.Cost/tmp.Cnt)
 		} else {
-			return fmt.Sprintf("%s(手搓)", tmp.ItemName)
+			return fmt.Sprintf("%s(Craft)", tmp.ItemName)
 		}
 	}
 	lefts := []string{equalize(pd)}
 	details := pd.Details
 	for _, bp := range pd.ByProducts {
-		lefts = append(lefts, fmt.Sprintf("%s(产量%.2f, 专注%.2f, 收入%.2f)", bp.Name, bp.Cnt, pd.Focus, pd.Cost))
+		lefts = append(lefts, fmt.Sprintf("%s(Output %.2f, Focus %.2f, Income %.2f)", bp.Name, bp.Cnt, pd.Focus, pd.Cost))
 	}
 	e = strings.Join(lefts, "+")
 	for {
@@ -515,52 +515,52 @@ func (i *Good) GetMaxCntByFocus(focus float64) (production ProductionDetail, err
 	}), nil
 }
 
-// GenerateAllFlagCombinations 生成所有满足条件的flag组合
-// 1. 根节点的flag固定为false
-// 2. 当一个节点的flag为true时，以它为根节点的子树的所有非根节点的flag均为false
+// GenerateAllFlagCombinations generates all flag combinations that meet the conditions
+// 1. The flag of the root node is fixed to false
+// 2. When a node's flag is true, all non-root nodes in its subtree have flags set to false
 func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
-	// 结果集合，每个map代表一种可能的flag组合
+	// Result set, each map represents a possible flag combination
 	result := []map[string]bool{}
 
-	// 如果没有配方，则返回空结果
+	// If there are no recipes, return empty result
 	if len(i.Recipe) == 0 {
 		return result
 	}
 
-	// 递归函数，用于生成所有可能的flag组合
+	// Recursive function to generate all possible flag combinations
 	var generateCombinations func(node *Good, currentCombination map[string]bool, parentFlag bool) []map[string]bool
 	generateCombinations = func(node *Good, currentCombination map[string]bool, parentFlag bool) []map[string]bool {
-		// 如果父节点的flag为true，则当前节点的flag必须为false
+		// If parent node's flag is true, current node's flag must be false
 		if parentFlag {
 			currentCombination[node.Name] = false
 			return []map[string]bool{currentCombination}
 		}
 
-		// 当父节点flag为false时，当前节点有两种可能：true或false
+		// When parent node's flag is false, current node has two possibilities: true or false
 		combinations := []map[string]bool{}
 
-		// 情况1：当前节点flag为false
+		// Case 1: current node's flag is false
 		falseCombination := make(map[string]bool)
 		for k, v := range currentCombination {
 			falseCombination[k] = v
 		}
 		falseCombination[node.Name] = false
 
-		// 情况2：当前节点flag为true
+		// Case 2: current node's flag is true
 		trueCombination := make(map[string]bool)
 		for k, v := range currentCombination {
 			trueCombination[k] = v
 		}
 		trueCombination[node.Name] = true
 
-		// 如果没有子节点，直接返回当前两种组合
+		// If there are no child nodes, directly return the two combinations
 		if len(node.Recipe) == 0 || len(node.Recipe[0].Materials) == 0 {
 			combinations = append(combinations, falseCombination, trueCombination)
 			return combinations
 		}
 
-		// 处理子节点
-		// 对于flag=false的情况，递归处理所有子节点
+		// Process child nodes
+		// For flag=false case, recursively process all child nodes
 		childCombinations := []map[string]bool{falseCombination}
 		for _, material := range node.Recipe[0].Materials {
 			childNode, ok := Name2Item[material.Name]
@@ -570,7 +570,7 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 
 			var newCombinations []map[string]bool
 			for _, combo := range childCombinations {
-				// 为每个现有组合生成子节点的所有可能组合
+				// Generate all possible combinations for child nodes for each existing combination
 				childResults := generateCombinations(childNode, combo, false)
 				newCombinations = append(newCombinations, childResults...)
 			}
@@ -578,7 +578,7 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 		}
 		combinations = append(combinations, childCombinations...)
 
-		// 对于flag=true的情况，所有子节点的flag必须为false
+		// For flag=true case, all child nodes' flags must be false
 		childCombinations = []map[string]bool{trueCombination}
 		for _, material := range node.Recipe[0].Materials {
 			childNode, ok := Name2Item[material.Name]
@@ -588,7 +588,7 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 
 			var newCombinations []map[string]bool
 			for _, combo := range childCombinations {
-				// 为每个现有组合生成子节点的所有可能组合（子节点flag必须为false）
+				// Generate all possible combinations for child nodes for each existing combination (child node flags must be false)
 				childResults := generateCombinations(childNode, combo, true)
 				newCombinations = append(newCombinations, childResults...)
 			}
@@ -599,13 +599,13 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 		return combinations
 	}
 
-	// 初始组合，根节点的flag固定为false
+	// Initial combination, root node's flag is fixed to false
 	initialCombination := map[string]bool{i.Name: false}
 
-	// 从根节点开始生成所有组合
+	// Generate all combinations starting from the root node
 	allCombinations := []map[string]bool{initialCombination}
 
-	// 处理根节点的所有子节点
+	// Process all child nodes of the root node
 	for idx := range i.Recipe {
 		for _, material := range i.Recipe[idx].Materials {
 			childNode, ok := Name2Item[material.Name]
@@ -615,7 +615,7 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 
 			var newCombinations []map[string]bool
 			for _, combo := range allCombinations {
-				// 为每个现有组合生成子节点的所有可能组合
+				// Generate all possible combinations for child nodes for each existing combination
 				childResults := generateCombinations(childNode, combo, false)
 				newCombinations = append(newCombinations, childResults...)
 			}
@@ -623,12 +623,12 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 		}
 	}
 
-	// 去重：移除重复的组合
+	// Deduplication: remove duplicate combinations
 	uniqueCombinations := []map[string]bool{}
 	combinationExists := make(map[string]bool)
 
 	for _, combination := range allCombinations {
-		// 将组合转换为字符串以便比较
+		// Convert combination to string for comparison
 		combinationKey := ""
 		keys := make([]string, 0, len(combination))
 		for k := range combination {
@@ -644,7 +644,7 @@ func (i *Good) GenerateAllFlagCombinations() []map[string]bool {
 			}
 		}
 
-		// 如果这个组合还没有出现过，则添加到结果中
+		// If this combination hasn't appeared yet, add it to the result
 		if !combinationExists[combinationKey] {
 			combinationExists[combinationKey] = true
 			uniqueCombinations = append(uniqueCombinations, combination)
@@ -666,6 +666,6 @@ func loadDiskData(reader io.Reader) (goods []*Good, err error) {
 	if len(goods) > 0 {
 		return
 	} else {
-		return nil, fmt.Errorf("目录 %s 下文件 %s 数据为空", HomeDir, JSON_DATA_FILE)
+		return nil, fmt.Errorf("Data in file %s under directory %s is empty", JSON_DATA_FILE, HomeDir)
 	}
 }

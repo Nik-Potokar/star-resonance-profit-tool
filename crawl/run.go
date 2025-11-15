@@ -119,10 +119,10 @@ var GAME_PID int = -1
 func InitGamePid() (err error) {
 	ids, err := robotgo.FindIds("Star.exe")
 	if err != nil {
-		return fmt.Errorf("未找到游戏进程: %w", err)
+		return fmt.Errorf("Game process not found: %w", err)
 	}
 	if len(ids) == 0 {
-		return fmt.Errorf("未找到游戏进程")
+		return fmt.Errorf("Game process not found")
 	}
 	// var w, h int
 	// for _, id := range ids {
@@ -136,11 +136,11 @@ func InitGamePid() (err error) {
 	GAME_PID = ids[0]
 	x_offset, y_offset, _, _ = robotgo.GetBounds(ids[0])
 	// if GAME_PID == -1 {
-	// 	return fmt.Errorf("分辨率不正确, 请将分辨率设置为窗口化1920x1080, 当前分辨率 %vx%v", w-16, h-29)
+	// 	return fmt.Errorf("Incorrect resolution, please set resolution to windowed 1920x1080, current resolution %vx%v", w-16, h-29)
 	// }
 	err = robotgo.ActivePid(ids[0])
 	if err != nil {
-		return fmt.Errorf("激活游戏进程失败: %w", err)
+		return fmt.Errorf("Failed to activate game process: %w", err)
 	}
 	return nil
 }

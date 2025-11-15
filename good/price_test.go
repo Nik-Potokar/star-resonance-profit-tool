@@ -6,9 +6,9 @@ import (
 )
 
 func TestPrice(t *testing.T) {
-	item := Name2Item["辉耀石"]
+	item := Name2Item["Brilliant Stone"]
 	_, d, err := GetItemBestProfitByFocus(item.Name, 400, map[string]float64{
-		"阿兹特精矿石": 200,
+		"Aztec Refined Ore": 200,
 	})
 	if err != nil {
 		panic(err)

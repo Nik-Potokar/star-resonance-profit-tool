@@ -8,7 +8,7 @@ import (
 	"github.com/noelyahan/mergi"
 )
 
-// 货物框
+// Item box
 var item_start_box_width = 85
 var item_start_box_height = 44
 var item_start_box_left = 520
@@ -17,7 +17,7 @@ var item_start_box = []int{item_start_box_left, item_start_box_top, item_start_b
 var item_horizontal_space = 238
 var item_vertical_space = 250
 
-// 左侧一级栏目
+// Left primary category
 var sidebar_start_box_width = 240
 var sidebar_start_box_height = 80
 var sidebar_start_box_left = 30
@@ -25,7 +25,7 @@ var sidebar_start_box_top = 360
 var sidebar_start_box = []int{sidebar_start_box_left, sidebar_start_box_top, sidebar_start_box_left + sidebar_start_box_width, sidebar_start_box_top + sidebar_start_box_height}
 var sidebar_vertical_space = 85
 
-// 上方二级栏目
+// Top secondary category
 var tab_start_box_width = 160
 var tab_start_box_height = 60
 var tab_start_box_left = 390

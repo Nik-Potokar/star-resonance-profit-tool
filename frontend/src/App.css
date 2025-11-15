@@ -1,4 +1,4 @@
-/* 浅蓝色主题变量 */
+/* Light blue theme variables */
 :root {
   --primary-color: #4a90e2;
   --primary-light: #c5dcff;
@@ -13,7 +13,7 @@
   --success-color: #2ecc71;
 }
 
-/* 基础样式 */
+/* Base styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
 }
 
-/* 应用容器 */
+/* Application container */
 .app-container {
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ body {
   padding: 20px;
 }
 
-/* 内容容器 */
+/* Content container */
 .content-container {
   background-color: white;
   border-radius: 8px;
@@ -46,7 +46,7 @@ body {
   max-width: 1200px;
 }
 
-/* 工具栏容器样式 */
+/* Toolbar container styles */
 .toolbar-container {
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ body {
   border-color: var(--primary-color);
 }
 
-/* 抓取数据按钮样式 */
+/* Crawl data button styles */
 .crawl-btn {
   background-color: var(--success-color);
   color: white;
@@ -106,7 +106,7 @@ body {
   box-shadow: none;
 }
 
-/* 确认对话框样式 */
+/* Confirmation dialog styles */
 .confirm-dialog-overlay {
   position: fixed;
   top: 0;
@@ -190,7 +190,7 @@ body {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 浮动错误信息样式 */
+/* Floating error message styles */
 .floating-error-container {
   position: fixed;
   top: 20px;
@@ -244,7 +244,7 @@ body {
   transform: scale(1.2);
 }
 
-/* 搜索框样式 */
+/* Search box styles */
 .search-container {
   display: flex;
   align-items: center;
@@ -257,7 +257,7 @@ body {
   margin-bottom: 0;
 }
 
-/* 为固定定位的搜索框添加空间 */
+/* Add space for fixed position search box */
 
 .search-input {
   flex: 1;
@@ -310,7 +310,7 @@ body {
   transform: scale(1.05);
 }
 
-/* 匹配行样式 */
+/* Matched row styles */
 .matched-row {
   background-color: rgba(255, 255, 200, 0.5);
 }
@@ -320,13 +320,13 @@ body {
   border-left: 4px solid var(--primary-color);
 }
 
-/* 货物列表 */
+/* Goods list */
 .goods-list {
   width: 100%;
   margin-top: 70px;
 }
 
-/* 表格样式 */
+/* Table styles */
 .goods-table {
   width: 100%;
   border-collapse: collapse;
@@ -369,7 +369,7 @@ body {
   align-items: center;
 }
 
-/* 价格单元格样式 */
+/* Price cell styles */
 .price-cell {
   cursor: pointer;
   position: relative;
@@ -394,7 +394,7 @@ body {
   opacity: 1;
 }
 
-/* 价格输入框 */
+/* Price input box */
 .price-input {
   width: 100%;
   padding: 8px;
@@ -408,7 +408,7 @@ body {
   box-shadow: 0 0 0 2px var(--primary-light);
 }
 
-/* 加载状态 */
+/* Loading state */
 .loading {
   display: flex;
   justify-content: center;
@@ -421,7 +421,7 @@ body {
   box-shadow: 0 2px 8px var(--shadow-color);
 }
 
-/* 响应式布局 */
+/* Responsive layout */
 @media (max-width: 768px) {
   .app-container {
     padding: 10px;
@@ -488,7 +488,7 @@ body {
     display: none;
   }
   
-  /* 在小屏幕上显示双击修改提示 */
+  /* Show double-click edit hint on small screens */
   .price-cell .edit-hint {
     display: inline;
     opacity: 0.7;
@@ -532,22 +532,22 @@ body {
     display: none;
   }
   
-  /* 在小屏幕上添加标签 */
+  /* Add labels on small screens */
   .goods-row .goods-cell:first-child::before {
-    content: '名称: ';
+    content: 'Name: ';
     font-weight: bold;
     margin-right: 5px;
     color: var(--primary-dark);
   }
-  
+
   .goods-row .goods-cell:nth-child(2)::before {
-    content: '价格: ';
+    content: 'Price: ';
     font-weight: bold;
     margin-right: 5px;
     color: var(--primary-dark);
   }
 }
-/* 利润单元格样式 */
+/* Profit cell styles */
 .profit-cell {
   font-weight: bold;
 }
@@ -560,7 +560,7 @@ body {
   color: var(--error-color);
 }
 
-/* 详情单元格样式 */
+/* Details cell styles */
 .comment-cell {
   font-style: italic;
   color: var(--text-light);
@@ -569,7 +569,7 @@ body {
   cursor: pointer;
 }
 
-/* 详情表头样式 */
+/* Details header styles */
 .header-comment-cell {
   max-width: 300px;
   display: flex;
@@ -577,7 +577,7 @@ body {
   align-items: center;
 }
 
-/* 详情表头样式 */
+/* Details header styles */
 .header-comment-cell {
   max-width: 300px;
   display: flex;
@@ -601,8 +601,8 @@ body {
   padding: 2px 10px;
   color: var(--primary-dark);
   transition: all 0.2s ease;
-  margin: 0 auto; /* 水平居中 */
-  display: inline-block; /* 使元素宽度适应内容 */
+  margin: 0 auto; /* Horizontal centering */
+  display: inline-block; /* Make element width fit content */
 }
 
 .comment-cell:hover .comment-preview {
@@ -630,28 +630,28 @@ body {
   font-style: normal;
   transition: opacity 0.3s ease, transform 0.3s ease;
   opacity: 0;
-  
-  /* 智能定位：默认在下方显示 */
+
+  /* Smart positioning: display below by default */
   top: 120%;
-  
-  /* 确保tooltip不会超出视口底部 */
+
+  /* Ensure tooltip doesn't overflow viewport bottom */
   max-height: 60vh;
   overflow-y: auto;
 }
 
-/* 添加新类，用于在靠近底部时向上显示tooltip */
+/* Add new class to display tooltip upward when near bottom */
 .comment-cell:hover .comment-tooltip {
   display: block;
   opacity: 1;
 }
 
-/* 当tooltip接近页面底部时，向上显示 */
+/* When tooltip is near page bottom, display upward */
 .goods-row:nth-last-child(-n+3) .comment-tooltip {
   top: auto;
   bottom: 120%;
 }
 
-/* 默认三角形指向（向上） */
+/* Default triangle direction (pointing up) */
 .comment-tooltip::before {
   content: '';
   position: absolute;
@@ -674,7 +674,7 @@ body {
   border-bottom: 7px solid white;
 }
 
-/* 靠近底部时三角形指向（向下） */
+/* Triangle direction when near bottom (pointing down) */
 .goods-row:nth-last-child(-n+3) .comment-tooltip::before {
   top: auto;
   bottom: -8px;
@@ -694,10 +694,10 @@ body {
   opacity: 1;
 }
 
-/* 响应式布局调整 */
+/* Responsive layout adjustments */
 @media (max-width: 768px) {
   .goods-cell.comment-cell {
-    display: flex; /* 在中等屏幕上也显示详情列 */
+    display: flex; /* Also display details column on medium screens */
   }
   
   .comment-preview {
@@ -712,21 +712,21 @@ body {
 
 @media (max-width: 480px) {
   .goods-row .goods-cell:nth-child(3)::before {
-    content: '利润: ';
+    content: 'Profit: ';
     font-weight: bold;
     margin-right: 5px;
     color: var(--primary-dark);
   }
-  
+
   .goods-row .goods-cell:nth-child(4)::before {
-    content: '详情: ';
+    content: 'Details: ';
     font-weight: bold;
     margin-right: 5px;
     color: var(--primary-dark);
   }
-  
+
   .goods-cell.comment-cell {
-    display: flex; /* 在小屏幕上显示详情列 */
+    display: flex; /* Display details column on small screens */
     line-height: 1.4;
   }
   
@@ -758,10 +758,10 @@ body {
   
   .comment-tooltip::before,
   .comment-tooltip::after {
-    display: none; /* 在弹出模式下不显示小三角 */
+    display: none; /* Don't show small triangle in popup mode */
   }
-  
-  /* 在移动设备上，无论是否靠近底部，都居中显示tooltip */
+
+  /* On mobile devices, always center tooltip regardless of proximity to bottom */
   .goods-row:nth-last-child(-n+3) .comment-tooltip {
     top: 50%;
     bottom: auto;

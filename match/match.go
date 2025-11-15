@@ -12,14 +12,14 @@ import (
 	"xhgm_price_tool/good/templates"
 )
 
-// Config 配置结构体
+// Config configuration struct
 type Config struct {
-	IgnoreTransparent bool    // 是否忽略透明像素
-	Threshold         float64 // 检测阈值
-	StepSize          int     // 搜索步长
+	IgnoreTransparent bool    // Whether to ignore transparent pixels
+	Threshold         float64 // Detection threshold
+	StepSize          int     // Search step size
 }
 
-// TemplateStats 模板统计信息
+// TemplateStats template statistics
 type TemplateStats struct {
 	mean        float64
 	stdDev      float64
@@ -51,9 +51,9 @@ var subMap = map[int]int{
 
 func GetPrice(priceClip image.Image, verbose bool) (price int) {
 	config := Config{
-		IgnoreTransparent: true, // 忽略透明像素
+		IgnoreTransparent: true, // Ignore transparent pixels
 		Threshold:         defaulThreshold,
-		StepSize:          1, // 搜索步长
+		StepSize:          1, // Search step size
 	}
 	arr := [][3]int{} // x, number, score
 	for i := range 10 {
@@ -71,13 +71,13 @@ func GetPrice(priceClip image.Image, verbose bool) (price int) {
 				if verbose {
 					fmt.Printf("static/templates/%d_%d.png\n", i, sub)
 				}
-				templateImg, err := templates.GetEmbedTemplate(fmt.Sprintf("%d_%d", i, sub)) // 假设模板可能有透明通道
+				templateImg, err := templates.GetEmbedTemplate(fmt.Sprintf("%d_%d", i, sub)) // Assume template may have transparent channel
 				if err != nil {
 					panic(err)
 				}
 				// robotgo.Save(templateImg, fmt.Sprintf("%d_%d", i, sub)+".png")
 
-				// 预计算模板的统计信息（考虑要忽略的像素）
+				// Pre-calculate template statistics (considering pixels to ignore)
 				templateStats := CalculateTemplateStats(templateImg, config)
 
 				result, _ := FindBestMatch(priceClip, templateImg, templateStats, config)
@@ -89,7 +89,7 @@ func GetPrice(priceClip image.Image, verbose bool) (price int) {
 				}
 				results = append(results, result...)
 			}
-			// 对结果进行聚合，误差在2像素内的聚合为一类
+			// Aggregate results, group items within 2-pixel error range
 			tmp := aggResult(results)
 			for _, item := range tmp {
 				item[1] = i
@@ -102,11 +102,11 @@ func GetPrice(priceClip image.Image, verbose bool) (price int) {
 			if verbose {
 				fmt.Printf("static/templates/%d.png\n", i)
 			}
-			templateImg, err := templates.GetEmbedTemplate(fmt.Sprint(i)) // 假设模板可能有透明通道
+			templateImg, err := templates.GetEmbedTemplate(fmt.Sprint(i)) // Assume template may have transparent channel
 			if err != nil {
 				panic(err)
 			}
-			// 预计算模板的统计信息（考虑要忽略的像素）
+			// Pre-calculate template statistics (considering pixels to ignore)
 			templateStats := CalculateTemplateStats(templateImg, config)
 
 			result, _ := FindBestMatch(priceClip, templateImg, templateStats, config)
@@ -116,7 +116,7 @@ func GetPrice(priceClip image.Image, verbose bool) (price int) {
 				// 	robotgo.Save(outputImage, fmt.Sprintf("%d_tmp.png", i))
 				// }
 			}
-			// 对结果进行聚合，误差在2像素内的聚合为一类
+			// Aggregate results, group items within 2-pixel error range
 			tmp := aggResult(result)
 			for _, item := range tmp {
 				item[1] = i
@@ -208,7 +208,7 @@ func aggResult(result []struct {
 	return arr
 }
 
-// CalculateTemplateStats 计算模板统计信息，跳过指定像素
+// CalculateTemplateStats calculates template statistics, skipping specified pixels
 func CalculateTemplateStats(template image.Image, config Config) TemplateStats {
 	width, height := template.Bounds().Dx(), template.Bounds().Dy()
 
@@ -216,7 +216,7 @@ func CalculateTemplateStats(template image.Image, config Config) TemplateStats {
 	var validPositions []struct{ x, y int }
 	var sum float64
 
-	// 第一次遍历：收集有效像素
+	// First pass: collect valid pixels
 	for y := 0; y < height; y++ {
 		for x := 0; x < width; x++ {
 			if shouldSkipPixel(template.At(x, y), config) {
@@ -237,7 +237,7 @@ func CalculateTemplateStats(template image.Image, config Config) TemplateStats {
 
 	mean := sum / float64(validCount)
 
-	// 计算标准差
+	// Calculate standard deviation
 	var sumSq float64
 	for _, pixel := range validPixels {
 		diff := pixel - mean
@@ -254,17 +254,17 @@ func CalculateTemplateStats(template image.Image, config Config) TemplateStats {
 	}
 }
 
-// shouldSkipPixel 判断是否应该跳过这个像素
+// shouldSkipPixel determines whether this pixel should be skipped
 func shouldSkipPixel(c color.Color, config Config) bool {
-	// 检查透明像素
+	// Check transparent pixels
 	if config.IgnoreTransparent {
 		_, _, _, a := c.RGBA()
-		if a < 0xFFFF { // 不是完全不透明
+		if a < 0xFFFF { // Not fully opaque
 			return true
 		}
 	}
 
-	// 检查特定颜色
+	// Check specific color
 	// if config.IgnoreColor != nil {
 	// 	r1, g1, b1, a1 := c.RGBA()
 	// 	r2, g2, b2, a2 := config.IgnoreColor.RGBA()
@@ -276,7 +276,7 @@ func shouldSkipPixel(c color.Color, config Config) bool {
 	return false
 }
 
-// FindBestMatch 查找最佳匹配位置
+// FindBestMatch finds the best match location
 func FindBestMatch(main, template image.Image, stats TemplateStats, config Config) (result []struct {
 	x, y  int
 	score float64
@@ -285,11 +285,11 @@ func FindBestMatch(main, template image.Image, stats TemplateStats, config Confi
 	// fmt.Println(mW, mH)
 	tW, tH := template.Bounds().Dx(), template.Bounds().Dy()
 
-	// 创建输出图像的副本
+	// Create a copy of the output image
 	outputImage = image.NewRGBA(main.Bounds())
 	draw.Draw(outputImage.(*image.RGBA), main.Bounds(), main, image.Point{}, draw.Src)
 
-	// 定义红色边框颜色
+	// Define red border color
 	red := color.RGBA{R: 255, G: 0, B: 0, A: 255}
 
 	for y := 0; y <= mH-tH; y += config.StepSize {
@@ -301,7 +301,7 @@ func FindBestMatch(main, template image.Image, stats TemplateStats, config Confi
 					score float64
 				}{x, y, score})
 
-				// 在匹配位置绘制红色边框
+				// Draw red border at match location
 				drawRedBorder(outputImage.(*image.RGBA), x, y, tW, tH, red)
 			}
 		}
@@ -310,30 +310,30 @@ func FindBestMatch(main, template image.Image, stats TemplateStats, config Confi
 	return result, outputImage
 }
 
-// drawRedBorder 在指定位置绘制1px红色边框
+// drawRedBorder draws a 1px red border at the specified location
 func drawRedBorder(img *image.RGBA, x, y, width, height int, borderColor color.RGBA) {
-	// 绘制上边框
+	// Draw top border
 	for i := x; i < x+width; i++ {
 		if i >= 0 && i < img.Bounds().Dx() && y >= 0 && y < img.Bounds().Dy() {
 			img.Set(i, y, borderColor)
 		}
 	}
 
-	// 绘制下边框
+	// Draw bottom border
 	for i := x; i < x+width; i++ {
 		if i >= 0 && i < img.Bounds().Dx() && y+height-1 >= 0 && y+height-1 < img.Bounds().Dy() {
 			img.Set(i, y+height-1, borderColor)
 		}
 	}
 
-	// 绘制左边框
+	// Draw left border
 	for j := y; j < y+height; j++ {
 		if x >= 0 && x < img.Bounds().Dx() && j >= 0 && j < img.Bounds().Dy() {
 			img.Set(x, j, borderColor)
 		}
 	}
 
-	// 绘制右边框
+	// Draw right border
 	for j := y; j < y+height; j++ {
 		if x+width-1 >= 0 && x+width-1 < img.Bounds().Dx() && j >= 0 && j < img.Bounds().Dy() {
 			img.Set(x+width-1, j, borderColor)
@@ -341,45 +341,45 @@ func drawRedBorder(img *image.RGBA, x, y, width, height int, borderColor color.R
 	}
 }
 
-// calculateNCC 改进的 NCC 计算，只使用有效像素
+// calculateNCC improved NCC calculation, using only valid pixels
 func calculateNCC(main image.Image, startX, startY int, stats TemplateStats) float64 {
 	if stats.validPixels == 0 {
 		return 0.0
 	}
 
-	// 计算主图像区域的有效像素均值
+	// Calculate mean of valid pixels in main image region
 	regionMean := calculateRegionMean(main, startX, startY, stats.positions)
 	// fmt.Printf("regionMean: %v\n", regionMean)
 
-	// 计算协方差和主图像区域的标准差
+	// Calculate covariance and standard deviation of main image region
 	var covSum, mainSumSq float64
 
 	for i, pos := range stats.positions {
 		templatePixel := stats.pixelValues[i]
 		mainPixel := getGrayValue(main.At(startX+pos.x, startY+pos.y))
 
-		// 协方差项
+		// Covariance term
 		cov := (templatePixel - stats.mean) * (mainPixel - regionMean)
 		covSum += cov
 
-		// 主图像区域的方差项
+		// Variance term of main image region
 		diff := mainPixel - regionMean
 		mainSumSq += diff * diff
 	}
 
-	// 计算主图像区域的标准差
+	// Calculate standard deviation of main image region
 	regionStdDev := math.Sqrt(mainSumSq / float64(stats.validPixels))
 
 	if stats.stdDev == 0 || regionStdDev == 0 {
 		return 0.0
 	}
 
-	// 计算 NCC
+	// Calculate NCC
 	ncc := covSum / (float64(stats.validPixels) * stats.stdDev * regionStdDev)
 	return ncc
 }
 
-// calculateRegionMean 计算主图像特定区域的有效像素均值
+// calculateRegionMean calculates the mean of valid pixels in a specific region of the main image
 func calculateRegionMean(main image.Image, startX, startY int, positions []struct{ x, y int }) float64 {
 	var sum float64
 	for _, pos := range positions {
@@ -388,9 +388,9 @@ func calculateRegionMean(main image.Image, startX, startY int, positions []struc
 	return sum / float64(len(positions))
 }
 
-// getGrayValue 将颜色转换为灰度值
+// getGrayValue converts color to grayscale value
 func getGrayValue(c color.Color) float64 {
-	// 处理不同类型的颜色模型s
+	// Handle different types of color models
 	switch col := c.(type) {
 	case color.RGBA:
 		return 0.299*float64(col.R) + 0.587*float64(col.G) + 0.114*float64(col.B)
@@ -405,12 +405,12 @@ func getGrayValue(c color.Color) float64 {
 	case color.Gray16:
 		return float64(col.Y >> 8)
 	default:
-		// 通用处理
+		// Generic handling
 		r, g, b, a := c.RGBA()
 		if a == 0 {
-			return 0 // 完全透明
+			return 0 // Fully transparent
 		}
-		// 转换为 0-255 范围并计算灰度
+		// Convert to 0-255 range and calculate grayscale
 		return 0.299*float64(r>>8) + 0.587*float64(g>>8) + 0.114*float64(b>>8)
 	}
 }
@@ -427,47 +427,47 @@ func loadImageViaBytes(b []byte) (img image.Image, err error) {
 // func loadImage(path string) image.Image {
 // 	file, err := os.Open(path)
 // 	if err != nil {
-// 		panic("无法打开图像: " + path)
+// 		panic("Unable to open image: " + path)
 // 	}
 // 	defer file.Close()
 
-// 	// 尝试解码为 JPEG 或 PNG
+// 	// Try to decode as JPEG or PNG
 // 	img, err := jpeg.Decode(file)
 // 	if err != nil {
-// 		file.Seek(0, 0) // 重置文件指针
+// 		file.Seek(0, 0) // Reset file pointer
 // 		img, err = png.Decode(file)
 // 		if err != nil {
-// 			panic("无法解码图像: " + path)
+// 			panic("Unable to decode image: " + path)
 // 		}
 // 	}
 // 	return ConvertDarkPixelsToBlack(img, 80)
 // }
 
-// ConvertDarkPixelsToBlack 将比指定阈值深的像素转换为黑色
+// ConvertDarkPixelsToBlack converts pixels darker than the specified threshold to black
 func ConvertDarkPixelsToBlack(img image.Image, threshold uint8) image.Image {
-	// 创建新的图像，保持原图尺寸和格式
+	// Create a new image, maintaining the original image size and format
 	bounds := img.Bounds()
 	result := image.NewRGBA(bounds)
 
-	// 遍历每个像素
+	// Iterate through each pixel
 	for y := bounds.Min.Y; y < bounds.Max.Y; y++ {
 		for x := bounds.Min.X; x < bounds.Max.X; x++ {
-			// 获取原图像素颜色
+			// Get original pixel color
 			originalColor := img.At(x, y)
 			r, g, b, a := originalColor.RGBA()
 
-			// 将32位颜色值转换为8位
+			// Convert 32-bit color value to 8-bit
 			r8 := uint8(r >> 8)
 			g8 := uint8(g >> 8)
 			b8 := uint8(b >> 8)
 			a8 := uint8(a >> 8)
 
-			// 检查像素是否比阈值深
+			// Check if pixel is darker than threshold
 			if isDarkerThanThreshold(r8, g8, b8, threshold) {
-				// 转换为黑色，保持原有透明度
+				// Convert to black, maintaining original transparency
 				result.Set(x, y, color.RGBA{R: 0, G: 0, B: 0, A: a8})
 			} else {
-				// 保持原色
+				// Keep original color
 				result.Set(x, y, originalColor)
 			}
 		}
@@ -476,10 +476,10 @@ func ConvertDarkPixelsToBlack(img image.Image, threshold uint8) image.Image {
 	return result
 }
 
-// isDarkerThanThreshold 检查颜色是否比阈值深
-// 这里使用RGB平均值来判断亮度
+// isDarkerThanThreshold checks if color is darker than threshold
+// Uses RGB average to determine brightness
 func isDarkerThanThreshold(r, g, b, threshold uint8) bool {
-	// 计算RGB平均值作为亮度
+	// Calculate RGB average as brightness
 	brightness := (uint32(r) + uint32(g) + uint32(b)) / 3
 	return brightness < uint32(threshold)
 }

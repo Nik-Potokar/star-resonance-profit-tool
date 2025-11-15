@@ -32,13 +32,13 @@ func getPrice(name string, prices map[string]float64) (price float64) {
 
 type Profit struct {
 	Name       string   `json:"name"`
-	Cnt        float64  `json:"cnt"`        // 个数
-	Cost       float64  `json:"cost"`       // 成本
-	Price      float64  `json:"price"`      // 单价
-	ByProducts []Profit `json:"byProducts"` // 副产品
-	Total      float64  `json:"value"`      // 总价
+	Cnt        float64  `json:"cnt"`        // Quantity
+	Cost       float64  `json:"cost"`       // Cost
+	Price      float64  `json:"price"`      // Unit price
+	ByProducts []Profit `json:"byProducts"` // Byproducts
+	Total      float64  `json:"value"`      // Total price
 
-	Comment string  `json:"comment"` // 备注
+	Comment string  `json:"comment"` // Notes
 	Num     float64 `json:"num"`
 }
 
@@ -78,7 +78,7 @@ func GetAllAvgProfitByFocus(focus float64, prices map[string]float64) (profits [
 	}
 	arr := []tmp{}
 	for name := range Name2Item {
-		if strings.Contains(name, "含片") {
+		if strings.Contains(name, "Tablet") {
 			continue
 		}
 		p, detail, err := GetItemProfitByFocus(name, focus, prices)
@@ -113,12 +113,12 @@ func GetItemBestProfitByFocus(name string, focus float64, prices map[string]floa
 			Name: item.Name,
 		}, detail, nil
 	}
-	// 先获取物品使用focus专注下的最佳产出配方
+	// First get the best output recipe for the item under focus
 	detail, err = item.GetMaxCntByFocus(focus)
 	if err != nil {
 		return profit, detail, err
 	}
-	// 转换为掺杂购买的最佳产出配方
+	// Convert to the best output recipe mixed with purchases
 	detail = TrBestProduction(detail, prices)
 	profit = detail.TrProfit(prices)
 	return profit, detail, nil
@@ -131,7 +131,7 @@ func GetAllItemBestProfitByFocus(focus float64, prices map[string]float64) (prof
 	}
 	arr := []tmp{}
 	for _, item := range Name2Item {
-		if strings.Contains(item.Name, "含片") {
+		if strings.Contains(item.Name, "Tablet") {
 			continue
 		}
 		p, detail, err := GetItemBestProfitByFocus(item.Name, focus, prices)
