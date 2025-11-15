@@ -1187,7 +1187,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "奇异果",
+                        "name": "Exotic Fruit",
                         "cnt": 14
                     }
                 ],
@@ -1209,27 +1209,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "罐罐鱼·等级1"
+                        "name": "Jar Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "罐罐鱼·等级1"
+                        "name": "Jar Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "罐罐鱼·等级2"
+                        "name": "Jar Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "罐罐鱼·等级2"
+                        "name": "Jar Fish - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鱼肉",
+                        "name": "Fish Meat",
                         "cnt": 2
                     }
                 ],
@@ -1251,27 +1251,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "罐罐鱼·等级1"
+                        "name": "Jar Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "罐罐鱼·等级1"
+                        "name": "Jar Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "罐罐鱼·等级2"
+                        "name": "Jar Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "罐罐鱼·等级2"
+                        "name": "Jar Fish - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鱼肉",
+                        "name": "Fish Meat",
                         "cnt": 2
                     }
                 ],
@@ -1293,27 +1293,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "炭火鱼排·等级1"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "炭火鱼排·等级1"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "炭火鱼排·等级2"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "炭火鱼排·等级2"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鱼肉",
+                        "name": "Fish Meat",
                         "cnt": 2
                     }
                 ],
@@ -1335,27 +1335,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "炭火鱼排·等级1"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "炭火鱼排·等级1"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "炭火鱼排·等级2"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "炭火鱼排·等级2"
+                        "name": "Charcoal-Grilled Fish Fillet - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鱼肉",
+                        "name": "Fish Meat",
                         "cnt": 2
                     }
                 ],
@@ -1377,27 +1377,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "坛坛肉·等级1"
+                        "name": "Jar Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "坛坛肉·等级1"
+                        "name": "Jar Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "坛坛肉·等级2"
+                        "name": "Jar Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "坛坛肉·等级2"
+                        "name": "Jar Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鲜肉",
+                        "name": "Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1419,27 +1419,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "坛坛肉·等级1"
+                        "name": "Jar Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "坛坛肉·等级1"
+                        "name": "Jar Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "坛坛肉·等级2"
+                        "name": "Jar Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "坛坛肉·等级2"
+                        "name": "Jar Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鲜肉",
+                        "name": "Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1461,27 +1461,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "裹花蒸丸子·等级1"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "裹花蒸丸子·等级1"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "裹花蒸丸子·等级2"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "裹花蒸丸子·等级2"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鲜肉",
+                        "name": "Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1503,27 +1503,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "裹花蒸丸子·等级1"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "裹花蒸丸子·等级1"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "裹花蒸丸子·等级2"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "裹花蒸丸子·等级2"
+                        "name": "Flower-Wrapped Steamed Meatballs - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "鲜肉",
+                        "name": "Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1545,27 +1545,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "蜜菇汤·等级1"
+                        "name": "Honey Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "蜜菇汤·等级1"
+                        "name": "Honey Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "蜜菇汤·等级2"
+                        "name": "Honey Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "蜜菇汤·等级2"
+                        "name": "Honey Mushroom Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "草地小伞",
+                        "name": "Grassland Umbrella",
                         "cnt": 2
                     }
                 ],
@@ -1587,27 +1587,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "蜜菇汤·等级1"
+                        "name": "Honey Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "蜜菇汤·等级1"
+                        "name": "Honey Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "蜜菇汤·等级2"
+                        "name": "Honey Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "蜜菇汤·等级2"
+                        "name": "Honey Mushroom Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "草地小伞",
+                        "name": "Grassland Umbrella",
                         "cnt": 2
                     }
                 ],
@@ -1629,27 +1629,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "香蕈乳冻·等级1"
+                        "name": "Fragrant Mushroom Pudding - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "香蕈乳冻·等级1"
+                        "name": "Fragrant Mushroom Pudding - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "香蕈乳冻·等级2"
+                        "name": "Fragrant Mushroom Pudding - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "香蕈乳冻·等级2"
+                        "name": "Fragrant Mushroom Pudding - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "草地小伞",
+                        "name": "Grassland Umbrella",
                         "cnt": 2
                     }
                 ],
@@ -1671,27 +1671,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "香蕈乳冻·等级1"
+                        "name": "Fragrant Mushroom Pudding - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "香蕈乳冻·等级1"
+                        "name": "Fragrant Mushroom Pudding - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "香蕈乳冻·等级2"
+                        "name": "Fragrant Mushroom Pudding - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "香蕈乳冻·等级2"
+                        "name": "Fragrant Mushroom Pudding - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "草地小伞",
+                        "name": "Grassland Umbrella",
                         "cnt": 2
                     }
                 ],
@@ -1713,27 +1713,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "郁郁鲜果茶·等级1"
+                        "name": "Lush Fresh Fruit Tea - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "郁郁鲜果茶·等级1"
+                        "name": "Lush Fresh Fruit Tea - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "郁郁鲜果茶·等级2"
+                        "name": "Lush Fresh Fruit Tea - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "郁郁鲜果茶·等级2"
+                        "name": "Lush Fresh Fruit Tea - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "甜甜浆果",
+                        "name": "Sweet Berry",
                         "cnt": 2
                     }
                 ],
@@ -1755,27 +1755,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "郁郁鲜果茶·等级1"
+                        "name": "Lush Fresh Fruit Tea - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "郁郁鲜果茶·等级1"
+                        "name": "Lush Fresh Fruit Tea - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "郁郁鲜果茶·等级2"
+                        "name": "Lush Fresh Fruit Tea - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "郁郁鲜果茶·等级2"
+                        "name": "Lush Fresh Fruit Tea - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "甜甜浆果",
+                        "name": "Sweet Berry",
                         "cnt": 2
                     }
                 ],
@@ -1797,27 +1797,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "糖露莓果·等级1"
+                        "name": "Sugar Dew Berry - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "糖露莓果·等级1"
+                        "name": "Sugar Dew Berry - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "糖露莓果·等级2"
+                        "name": "Sugar Dew Berry - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "糖露莓果·等级2"
+                        "name": "Sugar Dew Berry - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "甜甜浆果",
+                        "name": "Sweet Berry",
                         "cnt": 2
                     }
                 ],
@@ -1839,27 +1839,27 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "糖露莓果·等级1"
+                        "name": "Sugar Dew Berry - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "糖露莓果·等级1"
+                        "name": "Sugar Dew Berry - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "糖露莓果·等级2"
+                        "name": "Sugar Dew Berry - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "糖露莓果·等级2"
+                        "name": "Sugar Dew Berry - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "甜甜浆果",
+                        "name": "Sweet Berry",
                         "cnt": 2
                     }
                 ],
@@ -1881,31 +1881,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼鲜熔岩·等级1"
+                        "name": "Seafood Lava - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼鲜熔岩·等级1"
+                        "name": "Seafood Lava - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼鲜熔岩·等级2"
+                        "name": "Seafood Lava - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼鲜熔岩·等级2"
+                        "name": "Seafood Lava - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1927,31 +1927,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼鲜熔岩·等级1"
+                        "name": "Seafood Lava - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼鲜熔岩·等级1"
+                        "name": "Seafood Lava - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼鲜熔岩·等级2"
+                        "name": "Seafood Lava - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼鲜熔岩·等级2"
+                        "name": "Seafood Lava - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -1973,31 +1973,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼酱蜜汁肉排·等级1"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼酱蜜汁肉排·等级1"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼酱蜜汁肉排·等级2"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼酱蜜汁肉排·等级2"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -2019,31 +2019,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼酱蜜汁肉排·等级1"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼酱蜜汁肉排·等级1"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼酱蜜汁肉排·等级2"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼酱蜜汁肉排·等级2"
+                        "name": "Fish Sauce Honey Glazed Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     }
                 ],
@@ -2065,31 +2065,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼菇双鲜锅·等级1"
+                        "name": "Fish & Mushroom Hot Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼菇双鲜锅·等级1"
+                        "name": "Fish & Mushroom Hot Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼菇双鲜锅·等级2"
+                        "name": "Fish & Mushroom Hot Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼菇双鲜锅·等级2"
+                        "name": "Fish & Mushroom Hot Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2111,31 +2111,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "鱼菇双鲜锅·等级1"
+                        "name": "Fish & Mushroom Hot Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "鱼菇双鲜锅·等级1"
+                        "name": "Fish & Mushroom Hot Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "鱼菇双鲜锅·等级2"
+                        "name": "Fish & Mushroom Hot Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "鱼菇双鲜锅·等级2"
+                        "name": "Fish & Mushroom Hot Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2157,31 +2157,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "菇菇阿斯特锅·等级1"
+                        "name": "Mushroom Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "菇菇阿斯特锅·等级1"
+                        "name": "Mushroom Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "菇菇阿斯特锅·等级2"
+                        "name": "Mushroom Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "菇菇阿斯特锅·等级2"
+                        "name": "Mushroom Aster Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2203,31 +2203,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "菇菇阿斯特锅·等级1"
+                        "name": "Mushroom Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "菇菇阿斯特锅·等级1"
+                        "name": "Mushroom Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "菇菇阿斯特锅·等级2"
+                        "name": "Mushroom Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "菇菇阿斯特锅·等级2"
+                        "name": "Mushroom Aster Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2249,31 +2249,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "绉纱鱼果滚羹·等级1"
+                        "name": "Crepe Fish & Fruit Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "绉纱鱼果滚羹·等级1"
+                        "name": "Crepe Fish & Fruit Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "绉纱鱼果滚羹·等级2"
+                        "name": "Crepe Fish & Fruit Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "绉纱鱼果滚羹·等级2"
+                        "name": "Crepe Fish & Fruit Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2295,31 +2295,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "绉纱鱼果滚羹·等级1"
+                        "name": "Crepe Fish & Fruit Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "绉纱鱼果滚羹·等级1"
+                        "name": "Crepe Fish & Fruit Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "绉纱鱼果滚羹·等级2"
+                        "name": "Crepe Fish & Fruit Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "绉纱鱼果滚羹·等级2"
+                        "name": "Crepe Fish & Fruit Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2341,31 +2341,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "香熏鱼·等级1"
+                        "name": "Smoked Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "香熏鱼·等级1"
+                        "name": "Smoked Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "香熏鱼·等级2"
+                        "name": "Smoked Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "香熏鱼·等级2"
+                        "name": "Smoked Fish - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2387,31 +2387,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "香熏鱼·等级1"
+                        "name": "Smoked Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "香熏鱼·等级1"
+                        "name": "Smoked Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "香熏鱼·等级2"
+                        "name": "Smoked Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "香熏鱼·等级2"
+                        "name": "Smoked Fish - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2433,31 +2433,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "肉馅蒸胖菇菇·等级1"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "肉馅蒸胖菇菇·等级1"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "肉馅蒸胖菇菇·等级2"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "肉馅蒸胖菇菇·等级2"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2479,31 +2479,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "肉馅蒸胖菇菇·等级1"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "肉馅蒸胖菇菇·等级1"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "肉馅蒸胖菇菇·等级2"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "肉馅蒸胖菇菇·等级2"
+                        "name": "Steamed Meat-Stuffed Plump Mushroom - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2525,31 +2525,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "黄油肉块·等级1"
+                        "name": "Butter Meat Chunks - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "黄油肉块·等级1"
+                        "name": "Butter Meat Chunks - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "黄油肉块·等级2"
+                        "name": "Butter Meat Chunks - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "黄油肉块·等级2"
+                        "name": "Butter Meat Chunks - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2571,31 +2571,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "黄油肉块·等级1"
+                        "name": "Butter Meat Chunks - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "黄油肉块·等级1"
+                        "name": "Butter Meat Chunks - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "黄油肉块·等级2"
+                        "name": "Butter Meat Chunks - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "黄油肉块·等级2"
+                        "name": "Butter Meat Chunks - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 2
                     }
                 ],
@@ -2617,31 +2617,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "碳火果木烤肉·等级1"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "碳火果木烤肉·等级1"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "碳火果木烤肉·等级2"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "碳火果木烤肉·等级2"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2663,31 +2663,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "碳火果木烤肉·等级1"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "碳火果木烤肉·等级1"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "碳火果木烤肉·等级2"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "碳火果木烤肉·等级2"
+                        "name": "Charcoal Fruit-Wood Roasted Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2709,31 +2709,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "清炖肉汤·等级1"
+                        "name": "Clear Stewed Meat Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "清炖肉汤·等级1"
+                        "name": "Clear Stewed Meat Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "清炖肉汤·等级2"
+                        "name": "Clear Stewed Meat Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "清炖肉汤·等级2"
+                        "name": "Clear Stewed Meat Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2755,31 +2755,31 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "清炖肉汤·等级1"
+                        "name": "Clear Stewed Meat Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "清炖肉汤·等级1"
+                        "name": "Clear Stewed Meat Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "清炖肉汤·等级2"
+                        "name": "Clear Stewed Meat Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "清炖肉汤·等级2"
+                        "name": "Clear Stewed Meat Soup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 2
                     },
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 2
                     }
                 ],
@@ -2801,27 +2801,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "朴素阿斯特锅·等级1"
+                        "name": "Plain Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "朴素阿斯特锅·等级1"
+                        "name": "Plain Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "朴素阿斯特锅·等级2"
+                        "name": "Plain Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "朴素阿斯特锅·等级2"
+                        "name": "Plain Aster Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 4
                     }
                 ],
@@ -2843,27 +2843,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "朴素阿斯特锅·等级1"
+                        "name": "Plain Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "朴素阿斯特锅·等级1"
+                        "name": "Plain Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "朴素阿斯特锅·等级2"
+                        "name": "Plain Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "朴素阿斯特锅·等级2"
+                        "name": "Plain Aster Pot - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鱼肉",
+                        "name": "Refined Fish Meat",
                         "cnt": 4
                     }
                 ],
@@ -2885,27 +2885,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "九味腌肉·等级1"
+                        "name": "Nine-Spice Pickled Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "九味腌肉·等级1"
+                        "name": "Nine-Spice Pickled Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "九味腌肉·等级2"
+                        "name": "Nine-Spice Pickled Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "九味腌肉·等级2"
+                        "name": "Nine-Spice Pickled Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 4
                     }
                 ],
@@ -2927,27 +2927,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "九味腌肉·等级1"
+                        "name": "Nine-Spice Pickled Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "九味腌肉·等级1"
+                        "name": "Nine-Spice Pickled Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "九味腌肉·等级2"
+                        "name": "Nine-Spice Pickled Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "九味腌肉·等级2"
+                        "name": "Nine-Spice Pickled Meat - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "精制鲜肉",
+                        "name": "Refined Fresh Meat",
                         "cnt": 4
                     }
                 ],
@@ -2969,27 +2969,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "菇噜酱·等级1"
+                        "name": "Mushroom Goo Sauce - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "菇噜酱·等级1"
+                        "name": "Mushroom Goo Sauce - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "菇噜酱·等级2"
+                        "name": "Mushroom Goo Sauce - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "菇噜酱·等级2"
+                        "name": "Mushroom Goo Sauce - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 4
                     }
                 ],
@@ -3011,27 +3011,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "菇噜酱·等级1"
+                        "name": "Mushroom Goo Sauce - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "菇噜酱·等级1"
+                        "name": "Mushroom Goo Sauce - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "菇噜酱·等级2"
+                        "name": "Mushroom Goo Sauce - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "菇噜酱·等级2"
+                        "name": "Mushroom Goo Sauce - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "荧光蕈",
+                        "name": "Luminous Mushroom",
                         "cnt": 4
                     }
                 ],
@@ -3053,27 +3053,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "奶香乌姆·等级1"
+                        "name": "Creamy Umu - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "奶香乌姆·等级1"
+                        "name": "Creamy Umu - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "奶香乌姆·等级2"
+                        "name": "Creamy Umu - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "奶香乌姆·等级2"
+                        "name": "Creamy Umu - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 4
                     }
                 ],
@@ -3095,27 +3095,27 @@
                     {
                         "cnt": 1,
                         "prob": 56,
-                        "name": "奶香乌姆·等级1"
+                        "name": "Creamy Umu - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 24,
-                        "name": "奶香乌姆·等级1"
+                        "name": "Creamy Umu - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 14,
-                        "name": "奶香乌姆·等级2"
+                        "name": "Creamy Umu - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 6,
-                        "name": "奶香乌姆·等级2"
+                        "name": "Creamy Umu - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "乌姆果",
+                        "name": "Umu Fruit",
                         "cnt": 4
                     }
                 ],
@@ -3137,41 +3137,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3193,41 +3193,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3249,41 +3249,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "满足双响串·等级1"
+                        "name": "Satisfying Double Skewer - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "满足双响串·等级2"
+                        "name": "Satisfying Double Skewer - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "满足双响串·等级3"
+                        "name": "Satisfying Double Skewer - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3305,41 +3305,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3361,41 +3361,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3417,41 +3417,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "真味双宝炖·等级1"
+                        "name": "True Flavor Double Treasure Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "真味双宝炖·等级2"
+                        "name": "True Flavor Double Treasure Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "真味双宝炖·等级3"
+                        "name": "True Flavor Double Treasure Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     }
                 ],
@@ -3473,41 +3473,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3529,41 +3529,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3585,41 +3585,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "痛痛飞·等级1"
+                        "name": "Pain-Be-Gone - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "痛痛飞·等级2"
+                        "name": "Pain-Be-Gone - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "痛痛飞·等级3"
+                        "name": "Pain-Be-Gone - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3641,41 +3641,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3697,41 +3697,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3753,41 +3753,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "山菌高汤鱼鲜烩·等级1"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "山菌高汤鱼鲜烩·等级2"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "山菌高汤鱼鲜烩·等级3"
+                        "name": "Mountain Mushroom Broth Seafood Stew - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3809,41 +3809,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3865,41 +3865,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3921,41 +3921,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节阿斯特锅·等级1"
+                        "name": "Sea Breeze Festival Aster Pot - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节阿斯特锅·等级2"
+                        "name": "Sea Breeze Festival Aster Pot - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节阿斯特锅·等级3"
+                        "name": "Sea Breeze Festival Aster Pot - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -3977,41 +3977,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4033,41 +4033,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4089,41 +4089,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "果味海洋冰淇林·等级1"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "果味海洋冰淇林·等级2"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "果味海洋冰淇林·等级3"
+                        "name": "Ocean Fruit Flavored Ice Cream - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4145,41 +4145,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4201,41 +4201,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4257,41 +4257,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "海风节精选·等级1"
+                        "name": "Sea Breeze Festival Selection - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "海风节精选·等级2"
+                        "name": "Sea Breeze Festival Selection - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "海风节精选·等级3"
+                        "name": "Sea Breeze Festival Selection - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4313,41 +4313,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4369,41 +4369,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4425,41 +4425,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "妙香绵绵烧肉·等级1"
+                        "name": "Fragrant Slow-Roasted Meat - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "妙香绵绵烧肉·等级2"
+                        "name": "Fragrant Slow-Roasted Meat - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "妙香绵绵烧肉·等级3"
+                        "name": "Fragrant Slow-Roasted Meat - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 3
                     }
                 ],
@@ -4481,41 +4481,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4537,41 +4537,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4593,41 +4593,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "透花琉璃蜜肉酱·等级1"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "透花琉璃蜜肉酱·等级2"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "透花琉璃蜜肉酱·等级3"
+                        "name": "Floral Glazed Honey Meat Sauce - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4649,41 +4649,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4705,41 +4705,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4761,41 +4761,41 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "卡尼曼果肉碎·等级1"
+                        "name": "Carniman Fruit Pulp - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "卡尼曼果肉碎·等级2"
+                        "name": "Carniman Fruit Pulp - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "卡尼曼果肉碎·等级3"
+                        "name": "Carniman Fruit Pulp - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 3
                     },
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 3
                     }
                 ],
@@ -4817,37 +4817,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 6
                     }
                 ],
@@ -4869,37 +4869,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 6
                     }
                 ],
@@ -4921,37 +4921,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "黄油飞鱼·等级1"
+                        "name": "Butter Flying Fish - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "黄油飞鱼·等级2"
+                        "name": "Butter Flying Fish - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "黄油飞鱼·等级3"
+                        "name": "Butter Flying Fish - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鱼肉",
+                        "name": "Premium Fish Meat",
                         "cnt": 6
                     }
                 ],
@@ -4973,37 +4973,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 6
                     }
                 ],
@@ -5025,37 +5025,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 6
                     }
                 ],
@@ -5077,37 +5077,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "小熊蜂蜜肉排·等级1"
+                        "name": "Little Bear Honey Pork Chop - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "小熊蜂蜜肉排·等级2"
+                        "name": "Little Bear Honey Pork Chop - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "小熊蜂蜜肉排·等级3"
+                        "name": "Little Bear Honey Pork Chop - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "顶级鲜肉",
+                        "name": "Premium Fresh Meat",
                         "cnt": 6
                     }
                 ],
@@ -5129,37 +5129,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 6
                     }
                 ],
@@ -5181,37 +5181,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 6
                     }
                 ],
@@ -5233,37 +5233,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "藏香菇菇汤·等级1"
+                        "name": "Fragrant Mushroom Soup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "藏香菇菇汤·等级2"
+                        "name": "Fragrant Mushroom Soup - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "藏香菇菇汤·等级3"
+                        "name": "Fragrant Mushroom Soup - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "婆婆树松",
+                        "name": "Grandmother Tree Pine",
                         "cnt": 6
                     }
                 ],
@@ -5285,37 +5285,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 6
                     }
                 ],
@@ -5337,37 +5337,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 6
                     }
                 ],
@@ -5389,37 +5389,37 @@
                     {
                         "cnt": 1,
                         "prob": 35,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 2,
                         "prob": 15,
-                        "name": "寻觅鲜果汁·等级1"
+                        "name": "Seeking Fresh Fruit Juice - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 28,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 2,
                         "prob": 12,
-                        "name": "寻觅鲜果汁·等级2"
+                        "name": "Seeking Fresh Fruit Juice - Level 2"
                     },
                     {
                         "cnt": 1,
                         "prob": 7,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     },
                     {
                         "cnt": 2,
                         "prob": 3,
-                        "name": "寻觅鲜果汁·等级3"
+                        "name": "Seeking Fresh Fruit Juice - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "幽兰果",
+                        "name": "Dark Orchid Fruit",
                         "cnt": 6
                     }
                 ],
@@ -6045,7 +6045,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "常世草",
+                        "name": "Eternal Grass",
                         "cnt": 1
                     }
                 ],
@@ -6071,7 +6071,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "常世草",
+                        "name": "Eternal Grass",
                         "cnt": 1
                     }
                 ],
@@ -6093,27 +6093,27 @@
                     {
                         "cnt": 5,
                         "prob": 35,
-                        "name": "治愈芳香·等级1"
+                        "name": "Healing Aroma - Level 1"
                     },
                     {
                         "cnt": 6,
                         "prob": 15,
-                        "name": "治愈芳香·等级1"
+                        "name": "Healing Aroma - Level 1"
                     },
                     {
                         "cnt": 5,
                         "prob": 35,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     },
                     {
                         "cnt": 6,
                         "prob": 15,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "雪花芹",
+                        "name": "Snowflake Celery",
                         "cnt": 5
                     }
                 ],
@@ -6135,27 +6135,27 @@
                     {
                         "cnt": 5,
                         "prob": 14,
-                        "name": "治愈芳香·等级1"
+                        "name": "Healing Aroma - Level 1"
                     },
                     {
                         "cnt": 6,
                         "prob": 6,
-                        "name": "治愈芳香·等级1"
+                        "name": "Healing Aroma - Level 1"
                     },
                     {
                         "cnt": 5,
                         "prob": 56,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     },
                     {
                         "cnt": 6,
                         "prob": 24,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "粉麝香",
+                        "name": "Pink Musk",
                         "cnt": 5
                     }
                 ],
@@ -6177,27 +6177,27 @@
                     {
                         "cnt": 5,
                         "prob": 60,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     },
                     {
                         "cnt": 6,
                         "prob": 25,
-                        "name": "治愈芳香·等级2"
+                        "name": "Healing Aroma - Level 2"
                     },
                     {
                         "cnt": 5,
                         "prob": 10,
-                        "name": "治愈芳香·等级3"
+                        "name": "Healing Aroma - Level 3"
                     },
                     {
                         "cnt": 6,
                         "prob": 5,
-                        "name": "治愈芳香·等级3"
+                        "name": "Healing Aroma - Level 3"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "寄语兰",
+                        "name": "Message Orchid",
                         "cnt": 5
                     }
                 ],
@@ -6223,12 +6223,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "烈火糖浆·等级2"
+                        "name": "Blazing Fire Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级1",
+                        "name": "Fire Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6250,17 +6250,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "烈火糖浆·等级1"
+                        "name": "Blazing Fire Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "烈火糖浆·等级2"
+                        "name": "Blazing Fire Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级2",
+                        "name": "Fire Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6282,7 +6282,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "烈火糖浆·等级2"
+                        "name": "Blazing Fire Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -6291,7 +6291,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级3",
+                        "name": "Fire Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6317,7 +6317,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级1",
+                        "name": "Fire Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6343,7 +6343,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级2",
+                        "name": "Fire Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6369,7 +6369,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "火元素颗粒·等级3",
+                        "name": "Fire Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6395,12 +6395,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "冰冻糖浆·等级2"
+                        "name": "Frozen Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级1",
+                        "name": "Ice Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6422,17 +6422,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "冰冻糖浆·等级1"
+                        "name": "Frozen Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "冰冻糖浆·等级2"
+                        "name": "Frozen Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级2",
+                        "name": "Ice Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6454,7 +6454,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "冰冻糖浆·等级2"
+                        "name": "Frozen Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -6463,7 +6463,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级3",
+                        "name": "Ice Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6489,7 +6489,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级1",
+                        "name": "Ice Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6515,7 +6515,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级2",
+                        "name": "Ice Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6541,7 +6541,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "冰元素颗粒·等级3",
+                        "name": "Ice Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6567,12 +6567,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "青蔓糖浆·等级2"
+                        "name": "Green Vine Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级1",
+                        "name": "Nature Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6594,17 +6594,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "青蔓糖浆·等级1"
+                        "name": "Green Vine Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "青蔓糖浆·等级2"
+                        "name": "Green Vine Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级2",
+                        "name": "Nature Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6626,7 +6626,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "青蔓糖浆·等级2"
+                        "name": "Green Vine Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -6635,7 +6635,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级3",
+                        "name": "Nature Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6661,7 +6661,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级1",
+                        "name": "Nature Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6687,7 +6687,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级2",
+                        "name": "Nature Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6713,7 +6713,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "森元素颗粒·等级3",
+                        "name": "Nature Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6739,12 +6739,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "震土糖浆·等级2"
+                        "name": "Earthquake Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级1",
+                        "name": "Rock Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6766,17 +6766,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "震土糖浆·等级1"
+                        "name": "Earthquake Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "震土糖浆·等级2"
+                        "name": "Earthquake Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级2",
+                        "name": "Rock Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6798,7 +6798,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "震土糖浆·等级2"
+                        "name": "Earthquake Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -6807,7 +6807,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级3",
+                        "name": "Rock Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6833,7 +6833,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级1",
+                        "name": "Rock Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6859,7 +6859,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级2",
+                        "name": "Rock Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6885,7 +6885,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "岩元素颗粒·等级3",
+                        "name": "Rock Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -6911,12 +6911,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "旋风糖浆·等级2"
+                        "name": "Cyclone Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级1",
+                        "name": "Wind Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -6938,17 +6938,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "旋风糖浆·等级1"
+                        "name": "Cyclone Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "旋风糖浆·等级2"
+                        "name": "Cyclone Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级2",
+                        "name": "Wind Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -6970,7 +6970,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "旋风糖浆·等级2"
+                        "name": "Cyclone Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -6979,7 +6979,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级3",
+                        "name": "Wind Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7005,7 +7005,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级1",
+                        "name": "Wind Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7031,7 +7031,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级2",
+                        "name": "Wind Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7057,7 +7057,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "风元素颗粒·等级3",
+                        "name": "Wind Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7083,12 +7083,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "雷鸣糖浆·等级2"
+                        "name": "Thunder Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级1",
+                        "name": "Lightning Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7110,17 +7110,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "雷鸣糖浆·等级1"
+                        "name": "Thunder Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "雷鸣糖浆·等级2"
+                        "name": "Thunder Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级2",
+                        "name": "Lightning Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7142,7 +7142,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "雷鸣糖浆·等级2"
+                        "name": "Thunder Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -7151,7 +7151,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级3",
+                        "name": "Lightning Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7177,7 +7177,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级1",
+                        "name": "Lightning Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7203,7 +7203,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级2",
+                        "name": "Lightning Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7229,7 +7229,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "雷元素颗粒·等级3",
+                        "name": "Lightning Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7255,12 +7255,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "光彩糖浆·等级2"
+                        "name": "Radiant Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级1",
+                        "name": "Light Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7282,17 +7282,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "光彩糖浆·等级1"
+                        "name": "Radiant Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "光彩糖浆·等级2"
+                        "name": "Radiant Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级2",
+                        "name": "Light Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7314,7 +7314,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "光彩糖浆·等级2"
+                        "name": "Radiant Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -7323,7 +7323,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级3",
+                        "name": "Light Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7349,7 +7349,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级1",
+                        "name": "Light Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7375,7 +7375,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级2",
+                        "name": "Light Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7401,7 +7401,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "光元素颗粒·等级3",
+                        "name": "Light Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7427,12 +7427,12 @@
                     {
                         "cnt": 1,
                         "prob": 50,
-                        "name": "暗夜糖浆·等级2"
+                        "name": "Dark Night Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级1",
+                        "name": "Dark Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7454,17 +7454,17 @@
                     {
                         "cnt": 1,
                         "prob": 20,
-                        "name": "暗夜糖浆·等级1"
+                        "name": "Dark Night Syrup - Level 1"
                     },
                     {
                         "cnt": 1,
                         "prob": 80,
-                        "name": "暗夜糖浆·等级2"
+                        "name": "Dark Night Syrup - Level 2"
                     }
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级2",
+                        "name": "Dark Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7486,7 +7486,7 @@
                     {
                         "cnt": 1,
                         "prob": 85,
-                        "name": "暗夜糖浆·等级2"
+                        "name": "Dark Night Syrup - Level 2"
                     },
                     {
                         "cnt": 1,
@@ -7495,7 +7495,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级3",
+                        "name": "Dark Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7521,7 +7521,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级1",
+                        "name": "Dark Element Particle - Level 1",
                         "cnt": 1
                     }
                 ],
@@ -7547,7 +7547,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级2",
+                        "name": "Dark Element Particle - Level 2",
                         "cnt": 1
                     }
                 ],
@@ -7573,7 +7573,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "暗元素颗粒·等级3",
+                        "name": "Dark Element Particle - Level 3",
                         "cnt": 1
                     }
                 ],
@@ -7603,11 +7603,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "斯托克斯富矿石",
+                        "name": "Stokes Rich Ore",
                         "cnt": 9
                     },
                     {
-                        "name": "高热速燃碳粉",
+                        "name": "High-Heat Quick-Burning Charcoal Powder",
                         "cnt": 3
                     }
                 ],
@@ -7630,11 +7630,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "斯托克斯精矿石",
+                        "name": "Stokes Refined Ore",
                         "cnt": 9
                     },
                     {
-                        "name": "高热速燃碳粉",
+                        "name": "High-Heat Quick-Burning Charcoal Powder",
                         "cnt": 3
                     }
                 ],
@@ -7677,11 +7677,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "巴鲁矿石",
+                        "name": "Baru Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7708,11 +7708,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "巴鲁富矿石",
+                        "name": "Baru Rich Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7743,11 +7743,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "巴鲁精矿石",
+                        "name": "Baru Refined Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7781,11 +7781,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "阿兹特矿石",
+                        "name": "Azut Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7812,11 +7812,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "阿兹特富矿石",
+                        "name": "Azut Rich Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7847,11 +7847,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "阿兹特精矿石",
+                        "name": "Azut Refined Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7885,11 +7885,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "卢纳矿石",
+                        "name": "Luna Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7916,11 +7916,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "卢纳富矿石",
+                        "name": "Luna Rich Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7951,11 +7951,11 @@
                 ],
                 "materials": [
                     {
-                        "name": "卢纳精矿石",
+                        "name": "Luna Refined Ore",
                         "cnt": 8
                     },
                     {
-                        "name": "速燃碳粉",
+                        "name": "Quick-Burning Charcoal Powder",
                         "cnt": 1
                     }
                 ],
@@ -7985,7 +7985,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·1级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 1",
                         "cnt": 7
                     }
                 ],
@@ -8015,7 +8015,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·1级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 1",
                         "cnt": 7
                     }
                 ],
@@ -8045,7 +8045,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·1级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 1",
                         "cnt": 7
                     }
                 ],
@@ -8075,7 +8075,7 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·1级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 1",
                         "cnt": 7
                     }
                 ],
@@ -8105,15 +8105,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·2级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 1
                     }
                 ],
@@ -8143,15 +8143,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·2级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 1
                     }
                 ],
@@ -8181,15 +8181,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·2级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 1
                     }
                 ],
@@ -8219,15 +8219,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·2级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 1
                     }
                 ],
@@ -8257,15 +8257,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·3级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 2
                     }
                 ],
@@ -8295,15 +8295,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·3级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 2
                     }
                 ],
@@ -8333,15 +8333,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·3级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 2
                     }
                 ],
@@ -8371,15 +8371,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃赤晶原石·3级",
+                        "name": "Star Ruby Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "赤晶宝石",
+                        "name": "Ruby Gem",
                         "cnt": 2
                     }
                 ],
@@ -8409,15 +8409,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·2级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 1
                     }
                 ],
@@ -8447,15 +8447,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·2级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 1
                     }
                 ],
@@ -8485,15 +8485,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·2级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 1
                     }
                 ],
@@ -8523,15 +8523,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·2级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 1
                     }
                 ],
@@ -8561,15 +8561,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·3级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 2
                     }
                 ],
@@ -8599,15 +8599,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·3级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 2
                     }
                 ],
@@ -8637,15 +8637,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·3级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 2
                     }
                 ],
@@ -8675,15 +8675,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃蓝晶原石·3级",
+                        "name": "Star Sapphire Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "蓝晶宝石",
+                        "name": "Sapphire Gem",
                         "cnt": 2
                     }
                 ],
@@ -8713,15 +8713,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·2级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 1
                     }
                 ],
@@ -8751,15 +8751,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·2级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 1
                     }
                 ],
@@ -8789,15 +8789,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·2级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 1
                     }
                 ],
@@ -8827,15 +8827,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·2级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 1
                     }
                 ],
@@ -8865,15 +8865,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·3级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 2
                     }
                 ],
@@ -8903,15 +8903,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·3级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 2
                     }
                 ],
@@ -8941,15 +8941,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·3级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 2
                     }
                 ],
@@ -8979,15 +8979,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃翠晶原石·3级",
+                        "name": "Star Jade Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "翠晶宝石",
+                        "name": "Jade Gem",
                         "cnt": 2
                     }
                 ],
@@ -9017,15 +9017,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·2级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 1
                     }
                 ],
@@ -9055,15 +9055,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·2级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 1
                     }
                 ],
@@ -9093,15 +9093,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·2级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 1
                     }
                 ],
@@ -9131,15 +9131,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·2级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 2",
                         "cnt": 5
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 2
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 1
                     }
                 ],
@@ -9169,15 +9169,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·3级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 2
                     }
                 ],
@@ -9207,15 +9207,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·3级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 2
                     }
                 ],
@@ -9245,15 +9245,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·3级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 2
                     }
                 ],
@@ -9283,15 +9283,15 @@
                 ],
                 "materials": [
                     {
-                        "name": "星萃耀晶原石·3级",
+                        "name": "Star Radiant Crystal Raw Ore - Grade 3",
                         "cnt": 3
                     },
                     {
-                        "name": "宝石蜡",
+                        "name": "Gem Wax",
                         "cnt": 6
                     },
                     {
-                        "name": "耀晶宝石",
+                        "name": "Radiant Gem",
                         "cnt": 2
                     }
                 ],
